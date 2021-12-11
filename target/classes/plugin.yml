@@ -1,0 +1,17 @@
+name: CrashPlugin
+version: '1.0-SNAPSHOT'
+main: com.gmail.pointochanneru.crashplugin.CrashPlugin
+api-version: 1.12.2
+authors: [ pointo ]
+description: Crashplugin
+
+commands:
+  ranodm:
+    aliases: [ t, testest ]
+    description: Command description
+    permission: testplugin.command.test
+    permission-message: Permission denied
+    usage: Command usage
+  crash:
+    description:  Crash someones Minecraft
+    usage: /crash (player)
